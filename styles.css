@@ -1,0 +1,124 @@
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navbar {
+    display: flex;
+    background-color: #1f2937;
+    width: 100%;
+    height: 100px;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.headerLogo{
+    color:white;
+  /* padding-top: 30px ; */
+    /* padding-bottom: 10px; */
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+
+.tab{
+   font-size:20px;
+   color:white;
+   margin-right:20px;
+}
+.hero{
+    background-color: #1f2937;
+    width: 100%;
+    height: 500px;
+    display:flex;
+    align-items:center;
+    color:#F9FAF8;
+    justify-content: space-evenly;
+}
+
+
+.hero .shortDescription h1{
+    /* color:black; */
+}
+
+#btnNEWS, .signupbutton{
+display: block;
+text-align: center;
+width: 110px;
+border: none;
+background: #3882f6;
+padding: 10px;
+border-radius: 8px;
+color: #fff;
+font-family: 'Roboto', arial;
+text-decoration: none;
+font-weight: bold;
+}
+.randomInfo{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:79px;
+    padding-bottom:79px;
+}
+.font{
+   text-align:center;
+   color:hsl(201, 24%, 24%);
+}
+
+.quote{
+    background-color: rgb(77, 92, 102);
+    display:flex;
+    padding-top:50px; 
+    padding-bottom:50px;
+    padding-right:150px;
+    padding-left:150px;
+    position:relative;
+}
+.quote p{
+    color: rgb(189, 202, 202);
+    font-size: 35px;
+    font-family:sans-serif,'Roboto', Arial, Helvetica;
+    font-style:italic;
+    font-weight: lighter;
+    text-align: center;
+
+}
+
+.citation {
+    position: absolute;
+    color: rgb(189, 202, 202, 0.8); /* Slightly lighter color, adjust as you prefer */
+    font-size: 20px; /* Adjust as necessary */
+    font-family: sans-serif, 'Roboto', Arial, Helvetica;
+    right:150px;
+    bottom:30px;
+}
+
+.signup{
+    background-color: rgb(127, 162, 190);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    /*margin-bottom:40px;
+    margin-left:250px;
+    margin-right:250px; */
+}   
+.signupword{
+    color:white;
+    /* justify-content:center; */
+    padding:10px;
+}
+
+
+.signupword h3 {
+    margin-bottom: -15px;  /* Adjust as needed */
+}
+
+.footer{
+    background-color: rgb(223, 231, 246);
+}
+.footer p{
+    text-align: center;
+    font-size: 12px;
+}
